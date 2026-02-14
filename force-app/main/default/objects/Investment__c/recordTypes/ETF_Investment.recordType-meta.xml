@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ETF_Investment</fullName>
+    <active>true</active>
+    <description>This Record Type is used for all the Exchange Traded Fund (ETF) investments.</description>
+    <label>ETF Investment</label>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name__c</picklist>
+        <values>
+            <fullName>HDFC NIFTY Smallcap 250 ETF %28HDFCSML250%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mirae Asset NYSE FANG%2B ETF %28MAFANG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mirae Asset S%26P 500 Top 50 ETF %28MASPTOP50%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motilal Oswal MOSt Shares NASDAQ-100 ETF %28MON100%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nippon India ETF Gold BeES %28GOLDBEES%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nippon India ETF Nifty 50 BeES %28NIFTYBEES%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nippon India ETF Nifty Midcap 150 %28MID150BEES%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

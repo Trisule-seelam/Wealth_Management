@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Financial_Institution__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Maturity_Date__c</columns>
+    <columns>Lock_In_Period__c</columns>
+    <columns>ROI_Expected_Rate_of_Returns__c</columns>
+    <columns>Status__c</columns>
+    <columns>Risk_Profile__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
