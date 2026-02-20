@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Allocated_Amount__c</fullName>
-    <formula>Allocation__c  *  Total_Amount__c</formula>
+    <formula>ETF__r.Allocation__c  *  Total_Amount__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Represents the amount allocated to this ETF, in the total investment amount.</inlineHelpText>
     <label>Allocated Amount</label>
     <precision>18</precision>
     <required>false</required>

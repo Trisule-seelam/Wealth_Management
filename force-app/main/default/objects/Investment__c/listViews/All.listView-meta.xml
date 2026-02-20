@@ -5,7 +5,6 @@
     <columns>Income__c</columns>
     <columns>Investment_Type__c</columns>
     <columns>Invested_Amount__c</columns>
-    <columns>Allocation__c</columns>
     <columns>Date_of_Investment__c</columns>
     <columns>Additional_Notes__c</columns>
     <filterScope>Everything</filterScope>

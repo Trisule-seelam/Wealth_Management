@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Total_Amount__c</fullName>
+    <inlineHelpText>It is the amount to be invested in the ETFs, based on the Market (Domestic/International).</inlineHelpText>
     <label>Total Amount</label>
     <precision>10</precision>
     <required>false</required>
