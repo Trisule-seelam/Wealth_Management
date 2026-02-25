@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Investment Planner - ETFs" icon-name="standard:budget_allocation">
+        <div class="slds-grid slds-glutters">
+            <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                <lightning-combobox label="Market" value={selectedMarket} options={marketOptions}
+                    onchange={handleMarketChange} required></lightning-combobox>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                <lightning-input type="number" label="Investment Amount" value={investmentAmount} formatter="currency"
+                    onchange={handleInvestmentAmountChange} required></lightning-input>
+            </div>
+        </div>
+        <template lwc:if={showETFsData}>
+            <div class="slds-p-around_medium">
+                <lightning-datatable key-field="Id" data={ETFs} columns={columns}
+                    hide-checkbox-column></lightning-datatable>
+            </div>
+        </template>
+        <template lwc:else>
+            <div class="slds-p-around_medium slds-text-align_center">
+                <b class="slds-text-body_large">Get started by selecting a Market and specifying your Investment Amount.</b>
+            </div>
+        </template>
+    </lightning-card>
+</template>
