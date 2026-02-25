@@ -21,8 +21,8 @@
                 <field>Market__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Allocation__c</field>
+                <behavior>Edit</behavior>
+                <field>Stock_Exchange__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -31,16 +31,12 @@
                 <field>About__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Stock_Exchange__c</field>
+                <behavior>Required</behavior>
+                <field>Allocation__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Scheme_Details__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OwnerId</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
