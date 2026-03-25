@@ -20,28 +20,27 @@
                     <column>Investment__c.Invested_Amount__c</column>
                 </chartSummary>
                 <componentType>Donut</componentType>
-                <decimalPrecision>0</decimalPrecision>
-                <displayUnits>Integer</displayUnits>
+                <decimalPrecision>2</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
                 <enableHover>false</enableHover>
                 <expandOthers>true</expandOthers>
-                <groupingColumn>Investment__c.Name__c</groupingColumn>
+                <groupingColumn>Investment__c.ETF__c</groupingColumn>
                 <groupingSortProperties>
                     <groupingSorts>
                         <groupingLevel>g1</groupingLevel>
                         <sortOrder>a</sortOrder>
                     </groupingSorts>
                 </groupingSortProperties>
-                <header>Exchange Traded Funds (ETFs)</header>
+                <header>ETFs Investment</header>
                 <legendPosition>Right</legendPosition>
-                <maxValuesDisplayed>7</maxValuesDisplayed>
                 <report>MyInvestmentReports/ETFs_Investment</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>true</showTotal>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
-                <sortLegendValues>false</sortLegendValues>
+                <sortLegendValues>true</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -59,28 +58,27 @@
                     <column>Investment__c.Invested_Amount__c</column>
                 </chartSummary>
                 <componentType>Donut</componentType>
-                <decimalPrecision>0</decimalPrecision>
-                <displayUnits>Integer</displayUnits>
+                <decimalPrecision>2</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
                 <enableHover>false</enableHover>
                 <expandOthers>true</expandOthers>
-                <groupingColumn>Investment__c.Name__c</groupingColumn>
+                <groupingColumn>Investment__c.ETF__c</groupingColumn>
                 <groupingSortProperties>
                     <groupingSorts>
                         <groupingLevel>g1</groupingLevel>
                         <sortOrder>a</sortOrder>
                     </groupingSorts>
                 </groupingSortProperties>
-                <header>Indian ETFs</header>
+                <header>Indian ETFs Investment</header>
                 <legendPosition>Right</legendPosition>
-                <maxValuesDisplayed>4</maxValuesDisplayed>
                 <report>MyInvestmentReports/Indian_ETFs_Investment</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>true</showTotal>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
-                <sortLegendValues>false</sortLegendValues>
+                <sortLegendValues>true</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -98,28 +96,27 @@
                     <column>Investment__c.Invested_Amount__c</column>
                 </chartSummary>
                 <componentType>Donut</componentType>
-                <decimalPrecision>0</decimalPrecision>
-                <displayUnits>Integer</displayUnits>
+                <decimalPrecision>2</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
                 <enableHover>false</enableHover>
                 <expandOthers>true</expandOthers>
-                <groupingColumn>Investment__c.Name__c</groupingColumn>
+                <groupingColumn>Investment__c.ETF__c</groupingColumn>
                 <groupingSortProperties>
                     <groupingSorts>
                         <groupingLevel>g1</groupingLevel>
                         <sortOrder>a</sortOrder>
                     </groupingSorts>
                 </groupingSortProperties>
-                <header>US ETFs</header>
+                <header>US ETFs Investment</header>
                 <legendPosition>Right</legendPosition>
-                <maxValuesDisplayed>3</maxValuesDisplayed>
                 <report>MyInvestmentReports/US_ETFs_Investment</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>true</showTotal>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
-                <sortLegendValues>false</sortLegendValues>
+                <sortLegendValues>true</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>0</rowIndex>

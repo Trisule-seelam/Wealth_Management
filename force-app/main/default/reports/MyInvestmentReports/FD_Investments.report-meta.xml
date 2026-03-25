@@ -16,7 +16,7 @@
             <column>Investment__c.Investment_Type__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
-            <operator>equals</operator>
+            <operator>contains</operator>
             <value>Fixed Deposit (FD)</value>
         </criteriaItems>
     </filter>

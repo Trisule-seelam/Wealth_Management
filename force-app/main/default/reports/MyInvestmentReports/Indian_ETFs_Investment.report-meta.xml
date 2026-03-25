@@ -4,9 +4,6 @@
         <field>CUST_NAME</field>
     </columns>
     <columns>
-        <field>Investment__c.Country__c</field>
-    </columns>
-    <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <field>Investment__c.Allocated_Amount__c</field>
     </columns>
@@ -38,17 +35,17 @@
             <value>Exchange Traded Fund (ETF)</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Investment__c.Country__c</column>
+            <column>Investment__c.ETF_Market__c</column>
             <columnToColumn>false</columnToColumn>
-            <isUnlocked>false</isUnlocked>
+            <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>IN</value>
+            <value>Domestic</value>
         </criteriaItems>
     </filter>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Investment__c.Name__c</field>
+        <field>Investment__c.ETF__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Indian ETFs Investment</name>

@@ -4,9 +4,6 @@
         <field>CUST_NAME</field>
     </columns>
     <columns>
-        <field>Investment__c.Country__c</field>
-    </columns>
-    <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <field>Investment__c.Allocated_Amount__c</field>
     </columns>
@@ -41,7 +38,7 @@
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Investment__c.Name__c</field>
+        <field>Investment__c.ETF__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>ETFs Investment</name>
