@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Variance__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Invested_Amount__c  &lt;= Allocated_Amount__c,  
+    IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068J200000Ew9dG&amp;operationContext=CHATTER&amp;contentId=05TJ200000okEqN&quot;, &quot;Green&quot;, 20, 20), 
+    IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068J200000Ew9dH&amp;operationContext=CHATTER&amp;contentId=05TJ200000okEqX&quot;, &quot;Yellow&quot;, 20, 20))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>A visual indicator that shows the comparison between Investment Amount &amp; Allocated Amount. Invested Amount &lt;= Allocated Amount: Green | Invested Amount &gt; Allocated Amount: Yellow</inlineHelpText>
+    <label>Variance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
