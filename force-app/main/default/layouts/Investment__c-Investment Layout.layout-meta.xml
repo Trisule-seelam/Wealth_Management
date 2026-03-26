@@ -38,10 +38,6 @@
                 <field>CurrencyIsoCode</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Allocation__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Additional_Notes__c</field>
             </layoutItems>
